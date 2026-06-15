@@ -552,12 +552,19 @@ export default function App() {
                     macOS note:
                   </span>{" "}
                   Twig isn&apos;t notarized with a paid Apple Developer
-                  certificate, so Gatekeeper may warn that the app is{" "}
+                  certificate, so macOS may warn that it&apos;s from an
+                  unidentified developer the first time you open it.{" "}
+                  <span className="font-medium text-gray-500 dark:text-white/60">
+                    Easiest fix:
+                  </span>{" "}
+                  move Twig to your Applications folder, then right-click (or
+                  Control-click) the app and choose{" "}
+                  <span className="whitespace-nowrap">Open → Open</span>. You
+                  only need to do this once. If macOS instead says the app is{" "}
                   <span className="whitespace-nowrap">
                     &ldquo;damaged&rdquo;
-                  </span>{" "}
-                  or from an unidentified developer. After moving Twig to your
-                  Applications folder, open Terminal and run{" "}
+                  </span>
+                  , open Terminal and run{" "}
                   <code className="rounded bg-gray-100 dark:bg-white/10 px-1.5 py-0.5 font-mono text-[11px] text-gray-700 dark:text-white/80">
                     xattr -cr /Applications/Twig.app
                   </code>
