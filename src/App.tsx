@@ -296,7 +296,7 @@ export default function App() {
               <div className="mt-12 grid gap-4 sm:grid-cols-2 max-w-xl mx-auto">
                 {/* Windows */}
                 <a
-                  href="https://github.com/jimweldev/twig-releases/releases/latest/download/twig_windows.exe"
+                  href="https://github.com/jimweldev/twig/releases/latest/download/twig_windows.exe"
                   className="group flex flex-col items-center gap-5 rounded-2xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 p-8 transition hover:border-violet-300 dark:hover:border-white/20 hover:shadow-md dark:hover:bg-white/10"
                 >
                   <div className="flex items-center justify-center h-20 w-20 rounded-2xl bg-[#00adef]/10 dark:bg-[#00adef]/10">
@@ -324,7 +324,7 @@ export default function App() {
 
                 {/* macOS */}
                 <a
-                  href="https://github.com/jimweldev/twig-releases/releases/latest/download/twig_macos.dmg"
+                  href="https://github.com/jimweldev/twig/releases/latest/download/twig_macos.dmg"
                   className="group flex flex-col items-center gap-5 rounded-2xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 p-8 transition hover:border-violet-300 dark:hover:border-white/20 hover:shadow-md dark:hover:bg-white/10"
                 >
                   <div className="flex items-center justify-center h-20 w-20 rounded-2xl bg-gray-100 dark:bg-white/8">
