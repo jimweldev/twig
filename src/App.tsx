@@ -350,6 +350,21 @@ export default function App() {
                   </span>
                 </a>
               </div>
+
+              <p className="mt-8 mx-auto max-w-md text-xs leading-relaxed text-gray-400 dark:text-white/40">
+                <span className="font-semibold text-gray-500 dark:text-white/60">
+                  macOS note:
+                </span>{" "}
+                Twig isn't notarized with a paid Apple Developer certificate, so
+                Gatekeeper may warn that the app is{" "}
+                <span className="whitespace-nowrap">&ldquo;damaged&rdquo;</span>{" "}
+                or from an unidentified developer. After moving Twig to your
+                Applications folder, open Terminal and run{" "}
+                <code className="rounded bg-gray-100 dark:bg-white/10 px-1.5 py-0.5 font-mono text-[11px] text-gray-700 dark:text-white/80">
+                  xattr -cr /Applications/Twig.app
+                </code>
+                , then open it normally.
+              </p>
             </div>
           </div>
         </div>
